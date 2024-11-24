@@ -1,7 +1,7 @@
 ﻿// Program: RxBench02.cs
 // Purpose:
 // • Demonstrate BCL curiosities.
-// • Reference the library assembly with a target of the lowest supported .NET Framework (4.6.1).
+// • Reference the library assembly with a target of the recommended .NET Framework (4.8).
 
 using System;
 using System.Collections.Generic;

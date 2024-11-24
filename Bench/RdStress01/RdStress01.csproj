@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
   </PropertyGroup>
   <Import Project="..\..\Source\KaosCollections\KaosCollections.projitems" Label="Shared" />
   <ItemGroup>
+    <!-- TODO: Update to the version where the dependency with vulnerability issue is updated -->
     <PackageReference Include="Kaos.Combinatorics" Version="5.0.0" />
   </ItemGroup>
 </Project>
